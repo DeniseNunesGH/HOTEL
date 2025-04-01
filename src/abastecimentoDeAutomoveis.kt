@@ -1,0 +1,5 @@
+package Hotel
+
+fun abastecimentoDeAutomoveis() {
+
+}
