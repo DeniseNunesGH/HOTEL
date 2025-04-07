@@ -22,7 +22,7 @@ fun cadastrarHospedes() {
         1. Cadastrar
         2. Pesquisar
         3. Listar
-        3. Sair""")
+        4. Sair""")
 
         val escolha = readln().toIntOrNull()
 
@@ -91,6 +91,9 @@ fun sairCadastroDeHospedes() {
     }
 }
 
+fun erroCadastroDeHospedes() {
+    println("Por favor, informe um número entre 1 e 3.")
+}
 fun erroCadastroDeHospedes() {
     println("Por favor, informe um número entre 1 e 3.")
 }
